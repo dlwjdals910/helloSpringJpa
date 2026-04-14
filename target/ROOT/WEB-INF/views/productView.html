@@ -57,7 +57,7 @@
 
         <div class="detail-row">
             <span class="detail-label">카테고리</span>
-            <span class="detail-value" th:text="*{category}">카테고리</span>
+            <span class="detail-value" th:text="${product.category != null ? product.category.name : '-'}">카테고리</span>
         </div>
 
         <div class="detail-row">
@@ -102,5 +102,10 @@
         </form>
     </div>
 
+
+    <div style="text-align:center; margin-top:40px; padding-top:16px; border-top:1px solid #ddd; color:#e74c3c; font-size:0.95em;">
+        <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 (EEE) a hh:mm:ss')}">날짜</p>
+        <p>학번: 2171144 | 성명: 이정민</p>
+    </div>
 </body>
 </html>
