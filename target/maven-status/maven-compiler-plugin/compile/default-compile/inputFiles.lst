@@ -1,6 +1,7 @@
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/config/DbConfig.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/config/WebAppInitializer.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/config/WebConfig.java
+/Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/controller/CategoryController.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/controller/ProductController.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/exception/GlobalExceptionHandler.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/exception/ProductNotFoundException.java
@@ -12,4 +13,5 @@
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/repository/CategoryRepository.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/repository/ProductRepository.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/repository/TagRepository.java
+/Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/service/CategoryService.java
 /Users/aa/Documents/GitHub/helloSpringJpa/src/main/java/kr/ac/hansung/cse/service/ProductService.java
